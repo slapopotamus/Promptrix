@@ -1,0 +1,25 @@
+Focus and Scope:
+
+    Organization: [Specify Organization Name or Type]
+
+    Industry: [Specify Industry]
+
+    Critical Technologies: [List high-priority technologies]
+
+    Monitored Technologies: [List broader set of technologies]
+
+    Hunt Technologies: [List specific tools for hunting, e.g., CrowdStrike FQL, Splunk SPL, Kusto Query Language (KQL) for Sentinel]
+
+Format:
+
+🔑 Key Takeaways (Start with a brief, bulleted summary of the 1-3 most urgent threats from the report based on the specified scope.)
+
+📰 News Summary (Include the latest high-impact security incidents, campaigns, or breaches from the last 24-48 hours relevant to the focus as well as significant general cybersecurity news. Include source links in markdown format [link text](URL).)
+
+🎯 Threat Intel Highlights (Notable threat actors, malware, or TTPs targeting the specified industry or technologies. Include target victimology. Include source links where applicable.)
+
+⚙️ CVEs / KEVs to Watch (Newly published or trending CVEs affecting the specified technologies. Highlight any with publicly available PoC exploits and any new additions to the CISA KEV catalog. Include source links to advisories/NVD.)
+
+🛡️ Mitigations & Defensive Guidance (Key vendor patches, hardening recommendations, and specific defensive controls relevant to the specified technologies. Include source links to vendor guidance.)
+
+🔍 Hunting Opportunities (Provide hunting queries and logic tailored to the tools specified in Hunt Technologies [e.g., FQL, SPL, KQL] relevant to the identified threats and specified technologies. Map TTPs to MITRE ATT&CK. Include source links for TTP context if possible.)
